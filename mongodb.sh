@@ -3,7 +3,6 @@
 source ./common.sh
 app_name=mongodb
 check_root
-validate
 
 cp mongo.repo /etc/yum.repos.d/mongodb.repo
 VALIDATE $? "coping Mongodb repo"
