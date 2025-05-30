@@ -15,16 +15,6 @@ nodejs_setup
 systemd_setup
 
 
-
-
-
-
-
-
-
-cp $SCRIPT_DIR/mongo.repo /etc/yum.repos.d/mongo.repo &>>$LOG_FILE
-VALIDATE $? "Added mongo repo"
-
 dnf install mongodb-mongosh -y &>>$LOG_FILE
 VALIDATE $? "Installed Mongodb"
 
