@@ -6,7 +6,6 @@ app_name=catalogue
 
 check_root
 
-validate
 
 app_setup
 
